@@ -1,0 +1,253 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'mypll|altpll_component|pll|clk[0]'
+Slack : -7.077
+TNS   : -677.167
+
+Type  : Slow Model Setup 'mypll|altpll_component|pll|clk[1]'
+Slack : -5.701
+TNS   : -22.496
+
+Type  : Slow Model Setup 'bls0we'
+Slack : -0.267
+TNS   : -0.267
+
+Type  : Slow Model Setup 'oe'
+Slack : -0.116
+TNS   : -0.116
+
+Type  : Slow Model Hold 'mypll|altpll_component|pll|clk[0]'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow Model Hold 'bls0we'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'mypll|altpll_component|pll|clk[1]'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'oe'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'mypll|altpll_component|pll|clk[1]'
+Slack : -6.075
+TNS   : -132.238
+
+Type  : Slow Model Recovery 'readfifo'
+Slack : -0.451
+TNS   : -0.451
+
+Type  : Slow Model Recovery 'readfiforam'
+Slack : -0.434
+TNS   : -0.434
+
+Type  : Slow Model Recovery 'bls0we'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'go'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'foto'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'oe'
+Slack : 0.637
+TNS   : 0.000
+
+Type  : Slow Model Removal 'oe'
+Slack : -0.895
+TNS   : -0.895
+
+Type  : Slow Model Removal 'bls0we'
+Slack : -0.653
+TNS   : -2.075
+
+Type  : Slow Model Removal 'foto'
+Slack : -0.485
+TNS   : -0.485
+
+Type  : Slow Model Removal 'go'
+Slack : -0.354
+TNS   : -0.354
+
+Type  : Slow Model Removal 'readfiforam'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Slow Model Removal 'readfifo'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow Model Removal 'mypll|altpll_component|pll|clk[1]'
+Slack : 5.078
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'bls0we'
+Slack : -1.777
+TNS   : -40.361
+
+Type  : Slow Model Minimum Pulse Width 'foto'
+Slack : -1.777
+TNS   : -4.745
+
+Type  : Slow Model Minimum Pulse Width 'oe'
+Slack : -1.777
+TNS   : -3.261
+
+Type  : Slow Model Minimum Pulse Width 'go'
+Slack : -0.742
+TNS   : -1.484
+
+Type  : Slow Model Minimum Pulse Width 'readfifo'
+Slack : -0.742
+TNS   : -1.484
+
+Type  : Slow Model Minimum Pulse Width 'readfiforam'
+Slack : -0.742
+TNS   : -1.484
+
+Type  : Slow Model Minimum Pulse Width 'mypll|altpll_component|pll|clk[1]'
+Slack : 1.362
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'mypll|altpll_component|pll|clk[0]'
+Slack : 2.141
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'a12mhz'
+Slack : 41.666
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mypll|altpll_component|pll|clk[0]'
+Slack : -2.738
+TNS   : -270.151
+
+Type  : Fast Model Setup 'mypll|altpll_component|pll|clk[1]'
+Slack : -2.286
+TNS   : -9.053
+
+Type  : Fast Model Setup 'bls0we'
+Slack : 0.570
+TNS   : 0.000
+
+Type  : Fast Model Setup 'oe'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Fast Model Hold 'bls0we'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mypll|altpll_component|pll|clk[0]'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mypll|altpll_component|pll|clk[1]'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast Model Hold 'oe'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'mypll|altpll_component|pll|clk[1]'
+Slack : -2.535
+TNS   : -55.879
+
+Type  : Fast Model Recovery 'readfifo'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Fast Model Recovery 'readfiforam'
+Slack : -0.041
+TNS   : -0.041
+
+Type  : Fast Model Recovery 'go'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'bls0we'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'foto'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'oe'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Fast Model Removal 'bls0we'
+Slack : -0.601
+TNS   : -2.164
+
+Type  : Fast Model Removal 'oe'
+Slack : -0.574
+TNS   : -0.574
+
+Type  : Fast Model Removal 'foto'
+Slack : -0.573
+TNS   : -0.573
+
+Type  : Fast Model Removal 'go'
+Slack : -0.223
+TNS   : -0.223
+
+Type  : Fast Model Removal 'readfiforam'
+Slack : -0.069
+TNS   : -0.069
+
+Type  : Fast Model Removal 'readfifo'
+Slack : -0.061
+TNS   : -0.061
+
+Type  : Fast Model Removal 'mypll|altpll_component|pll|clk[1]'
+Slack : 2.201
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'bls0we'
+Slack : -1.222
+TNS   : -27.222
+
+Type  : Fast Model Minimum Pulse Width 'foto'
+Slack : -1.222
+TNS   : -3.222
+
+Type  : Fast Model Minimum Pulse Width 'oe'
+Slack : -1.222
+TNS   : -2.222
+
+Type  : Fast Model Minimum Pulse Width 'go'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'readfifo'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'readfiforam'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mypll|altpll_component|pll|clk[1]'
+Slack : 1.604
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'mypll|altpll_component|pll|clk[0]'
+Slack : 3.081
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'a12mhz'
+Slack : 41.666
+TNS   : 0.000
+
+------------------------------------------------------------
