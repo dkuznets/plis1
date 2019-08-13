@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.008 ns
-From           : adresbus[1]
-To             : RKSMEM[0]
+Actual Time    : 9.610 ns
+From           : adresbus[3]
+To             : RKS[6]
 From Clock     : --
 To Clock       : bls0we
 Failed Paths   : 0
@@ -15,19 +15,19 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 17.017 ns
-From           : fifotimer:myfifotimer|scfifo:scfifo_component|scfifo_8j71:auto_generated|a_dpfifo_fp71:dpfifo|dpram_tk51:FIFOram|altsyncram_gtl1:altsyncram2|altsyncram_fne1:altsyncram3|ram_block4a0~porta_address_reg9
+Actual Time    : 17.197 ns
+From           : RKSMEM[0]
 To             : databus[0]
-From Clock     : a12mhz
+From Clock     : bls0we
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 20.212 ns
-From           : adresbus[2]
-To             : databus[2]
+Actual Time    : 19.935 ns
+From           : adresbus[1]
+To             : databus[4]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,7 +35,7 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : -2.556 ns
+Actual Time    : -1.909 ns
 From           : databus[7]
 To             : RKSMEM[7]
 From Clock     : --
@@ -43,9 +43,9 @@ To Clock       : bls0we
 Failed Paths   : 0
 
 Type           : Clock Setup: 'pllgen:mypll|altpll:altpll_component|_clk1'
-Slack          : 1.561 ns
+Slack          : 1.555 ns
 Required Time  : 192.01 MHz ( period = 5.208 ns )
-Actual Time    : 274.20 MHz ( period = 3.647 ns )
+Actual Time    : 273.75 MHz ( period = 3.653 ns )
 From           : adrreg[0]
 To             : adrreg[18]
 From Clock     : pllgen:mypll|altpll:altpll_component|_clk1
@@ -53,17 +53,17 @@ To Clock       : pllgen:mypll|altpll:altpll_component|_clk1
 Failed Paths   : 0
 
 Type           : Clock Setup: 'pllgen:mypll|altpll:altpll_component|_clk0'
-Slack          : 2.717 ns
+Slack          : 3.145 ns
 Required Time  : 96.01 MHz ( period = 10.416 ns )
-Actual Time    : 129.89 MHz ( period = 7.699 ns )
-From           : kodclocka[13]
-To             : adrregADC[8]
+Actual Time    : 137.53 MHz ( period = 7.271 ns )
+From           : linecount[1]
+To             : adrregADC[18]
 From Clock     : pllgen:mypll|altpll:altpll_component|_clk0
 To Clock       : pllgen:mypll|altpll:altpll_component|_clk0
 Failed Paths   : 0
 
 Type           : Clock Setup: 'bls0we'
-Slack          : 3.560 ns
+Slack          : 3.518 ns
 Required Time  : 200.00 MHz ( period = 5.000 ns )
 Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
 From           : RKSMEM[2]
